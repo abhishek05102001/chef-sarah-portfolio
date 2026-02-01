@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chef Sarah | Culinary CV Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #fafafa; color: #222; line-height: 1.7; }
+
+    header {
+      padding: 90px 10% 70px;
+      background: linear-gradient(135deg, #f7f8fa, #eef1f5);
+    }
+    header h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; color: #555; }
+
+    section { padding: 70px 10%; }
+    h2 { font-size: 2rem; margin-bottom: 30px; font-weight: 600; color: #111; }
+
+    .about p { max-width: 900px; font-size: 1.05rem; color: #444; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 18px;
+      border: 1px solid #eaeaea;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+    }
+    .card h3 { margin-bottom: 10px; font-size: 1.1rem; font-weight: 600; }
+    .card p { color: #555; font-size: 0.95rem; }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .photo {
+      height: 220px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #f1f3f6, #e3e6ec);
+      border: 1px dashed #cfd4dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 0.95rem;
+      position: relative;
+    }
+
+    .photo span {
+      position: absolute;
+      bottom: 14px;
+      left: 14px;
+      background: rgba(255,255,255,0.9);
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      color: #444;
+    }
+
+    .contact {
+      background: #ffffff;
+      border-top: 1px solid #eee;
+      text-align: center;
+    }
+    .contact p { font-size: 1.05rem; margin-bottom: 8px; color: #444; }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.85rem;
+      color: #777;
+      background: #fafafa;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.3rem; }
+      section { padding: 55px 6%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chef Sarah</h1>
+  <p>Culinary Professional · Modern Global Cuisine · Creative Plating</p>
+</header>
+
+<section class="about">
+  <h2>Profile</h2>
+  <p>
+    Chef Sarah is a professional culinary expert specializing in modern global cuisine, creative food presentation,
+    and thoughtfully curated menus. Her work reflects precision, balance, and a contemporary approach suitable
+    for premium dining, events, and professional kitchens.
+  </p>
+</section>
+
+<section>
+  <h2>Core Competencies</h2>
+  <div class="grid">
+    <div class="card"><h3>Global Cuisine</h3><p>Modern Indian, European & Asian concepts</p></div>
+    <div class="card"><h3>Menu Development</h3><p>Seasonal planning, costing & optimization</p></div>
+    <div class="card"><h3>Plating & Styling</h3><p>Minimal, elegant, contemporary presentation</p></div>
+    <div class="card"><h3>Professional Kitchens</h3><p>Event dining, private chefs & collaborations</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Signature Work</h2>
+  <div class="grid">
+    <div class="card"><h3>Modern Butter Chicken</h3><p>Refined classic with lighter textures</p></div>
+    <div class="card"><h3>Seasonal Veg Plate</h3><p>Fresh produce with global influences</p></div>
+    <div class="card"><h3>Contemporary Desserts</h3><p>Balanced flavors with clean aesthetics</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfolio Gallery</h2>
+  <div class="gallery">
+    <div class="photo"><span>Culinary Dish</span></div>
+    <div class="photo"><span>Plated Entrée</span></div>
+    <div class="photo"><span>Kitchen Work</span></div>
+    <div class="photo"><span>Event Setup</span></div>
+    <div class="photo"><span>Dessert</span></div>
+    <div class="photo"><span>Signature Plate</span></div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Email: sarah@chefportfolio.com</p>
+  <p>Instagram: @chefsarah</p>
+  <p>Available for Professional Opportunities</p>
+</section>
+
+<footer>
+  © 2026 Chef Sarah · Culinary CV Portfolio
+</footer>
+
+</body>
+</html>
