@@ -48,7 +48,7 @@
       height: 180px;
       border-radius: 50%;
       background-color: #efe7df;
-      background-image: url('sarah.jpeg');
+      background-image: url('sarah.jpg');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -64,11 +64,14 @@
 
     h2 { font-weight: 600; margin-bottom: 30px; }
 
+    /* PORTFOLIO PHOTOS */
     .photo {
       aspect-ratio: 1 / 1;
       background-position: center;
       background-size: cover;
-      border-radius: 12px;
+      border-radius: 14px;
+      width: 100%;
+      min-height: 220px;
     }
 
     footer {
@@ -78,6 +81,37 @@
       text-align: center;
       font-size: 0.9rem;
       color: #777;
+    }
+
+    /* ---------- MOBILE OPTIMIZATION ---------- */
+    @media (max-width: 768px) {
+      header {
+        padding: 110px 20px 80px;
+      }
+
+      .profile-photo {
+        width: 140px;
+        height: 140px;
+      }
+
+      h1 { font-size: 1.8rem; }
+
+      section {
+        padding: 70px 20px;
+      }
+
+      .photo {
+        min-height: 200px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.4rem; }
+      .profile-photo {
+        width: 120px;
+        height: 120px;
+      }
     }
   </style>
 </head>
